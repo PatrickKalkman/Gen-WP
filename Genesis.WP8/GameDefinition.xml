@@ -1,0 +1,392 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Stages>
+  <Stage Order="1">
+    <BackgroundLayers>
+      <Layer Order="1" Image="layer1_1" XSpeed="0.01" YSpeed="0.76" />
+      <Layer Order="2" Image="layer1_2" XSpeed="1" YSpeed="2" />
+      <Layer Order="3" Image="layer1_3" XSpeed="0" YSpeed="1" />
+    </BackgroundLayers>
+    <EnemeyWaves>
+      <Wave Order="1" NumberOfMilliSecondsBetweenEnemies="600">
+        <EnemyDefinition FrameHeight="101" FrameWidth="95" FramesPerRow="4" FramesPerSecond="10" Width="92" Height="99" Order="1" NumberOfFrames="4" StartSpriteX="381" StartSpriteY="0" Strength="2" NumberOfEnemies="9" MovementSpeed="130">
+          <BezierPoints>
+            <Point Nr="1" X="-30" Y="-36" />
+            <Point Nr="2" X="-66" Y="-15" />
+            <Point Nr="3" X="94" Y="573" />
+            <Point Nr="4" X="195" Y="550" />
+            <Point Nr="5" X="294" Y="526" />
+            <Point Nr="6" X="258" Y="52" />
+            <Point Nr="7" X="202" Y="80" />
+            <Point Nr="8" X="143" Y="109" />
+            <Point Nr="9" X="6" Y="-59" />
+          </BezierPoints>
+        </EnemyDefinition>
+        <EnemyDefinition FrameHeight="101" FrameWidth="95" FramesPerRow="4" FramesPerSecond="10" Width="92" Height="98" Order="2" NumberOfFrames="4" StartSpriteX="381" StartSpriteY="102" Strength="2" NumberOfEnemies="9" MovementSpeed="130">
+          <BezierPoints>
+            <Point Nr="1" X="457" Y="-28" />
+            <Point Nr="2" X="478" Y="-2" />
+            <Point Nr="3" X="317" Y="579" />
+            <Point Nr="4" X="257" Y="580" />
+            <Point Nr="5" X="199" Y="581" />
+            <Point Nr="6" X="336" Y="297" />
+            <Point Nr="7" X="320" Y="115" />
+            <Point Nr="8" X="302" Y="-67" />
+            <Point Nr="9" X="436" Y="-55" />
+          </BezierPoints>
+        </EnemyDefinition>
+      </Wave>
+      <Wave Order="2" NumberOfMilliSecondsBetweenEnemies="300">
+        <EnemyDefinition FrameHeight="101" FrameWidth="95" FramesPerRow="4" FramesPerSecond="10" Width="92" Height="98" Order="1" NumberOfFrames="4" StartSpriteX="381" StartSpriteY="102" Strength="4" NumberOfEnemies="13" MovementSpeed="85">
+          <BezierPoints>
+            <Point Nr="1" X="39" Y="-31" />
+            <Point Nr="2" X="-94" Y="-133" />
+            <Point Nr="3" X="53" Y="104" />
+            <Point Nr="4" X="90" Y="214" />
+            <Point Nr="5" X="127" Y="328" />
+            <Point Nr="6" X="109" Y="604" />
+            <Point Nr="7" X="149" Y="604" />
+            <Point Nr="8" X="189" Y="602" />
+            <Point Nr="9" X="173" Y="71" />
+          </BezierPoints>
+        </EnemyDefinition>
+        <EnemyDefinition FrameHeight="101" FrameWidth="95" FramesPerRow="4" FramesPerSecond="10" Width="92" Height="98" Order="2" NumberOfFrames="4" StartSpriteX="381" StartSpriteY="0" Strength="4" NumberOfEnemies="13" MovementSpeed="85">
+          <BezierPoints>
+            <Point Nr="1" X="423" Y="-37" />
+            <Point Nr="2" X="397" Y="-141" />
+            <Point Nr="3" X="449" Y="322" />
+            <Point Nr="4" X="323" Y="449" />
+            <Point Nr="5" X="198" Y="578" />
+            <Point Nr="6" X="-114" Y="726" />
+            <Point Nr="7" X="155" Y="583" />
+            <Point Nr="8" X="422" Y="441" />
+            <Point Nr="9" X="446" Y="66" />
+          </BezierPoints>
+        </EnemyDefinition>
+      </Wave>
+      <Wave Order="3" NumberOfMilliSecondsBetweenEnemies="400">
+        <EnemyDefinition FrameHeight="58" FrameWidth="95" FramesPerRow="4" FramesPerSecond="10" Width="92" Height="55" Order="1" NumberOfFrames="4" StartSpriteX="381" StartSpriteY="203" Strength="1" NumberOfEnemies="10" MovementSpeed="210">
+          <BezierPoints>
+            <Point Nr="1" X="567" Y="-2" />
+            <Point Nr="2" X="528" Y="-58" />
+            <Point Nr="3" X="-180" Y="538" />
+            <Point Nr="4" X="80" Y="572" />
+            <Point Nr="5" X="343" Y="608" />
+            <Point Nr="6" X="-38" Y="81" />
+            <Point Nr="7" X="35" Y="29" />
+            <Point Nr="8" X="110" Y="-22" />
+            <Point Nr="9" X="604" Y="54" />
+          </BezierPoints>
+        </EnemyDefinition>
+        <EnemyDefinition FrameHeight="58" FrameWidth="95" FramesPerRow="4" FramesPerSecond="10" Width="92" Height="55" Order="2" NumberOfFrames="4" StartSpriteX="381" StartSpriteY="261" Strength="1" NumberOfEnemies="10" MovementSpeed="180">
+          <BezierPoints>
+            <Point Nr="1" X="-6" Y="-31" />
+            <Point Nr="2" X="-102" Y="-118" />
+            <Point Nr="3" X="360" Y="552" />
+            <Point Nr="4" X="445" Y="393" />
+            <Point Nr="5" X="532" Y="234" />
+            <Point Nr="6" X="75" Y="507" />
+            <Point Nr="7" X="54" Y="461" />
+            <Point Nr="8" X="36" Y="413" />
+            <Point Nr="9" X="90" Y="55" />
+          </BezierPoints>
+        </EnemyDefinition>
+      </Wave>
+      <Wave Order="4" NumberOfMilliSecondsBetweenEnemies="300">
+        <EnemyDefinition FrameHeight="58" FrameWidth="95" FramesPerRow="4" FramesPerSecond="10" Width="92" Height="55" Order="1" NumberOfFrames="4" StartSpriteX="381" StartSpriteY="203" Strength="1" NumberOfEnemies="23" MovementSpeed="160">
+          <BezierPoints>
+            <Point Nr="1" X="-63" Y="599" />
+            <Point Nr="2" X="-38" Y="646" />
+            <Point Nr="3" X="176" Y="567" />
+            <Point Nr="4" X="252" Y="563" />
+            <Point Nr="5" X="329" Y="561" />
+            <Point Nr="6" X="130" Y="-7" />
+            <Point Nr="7" X="111" Y="38" />
+            <Point Nr="8" X="94" Y="83" />
+            <Point Nr="9" X="-92" Y="551" />
+          </BezierPoints>
+        </EnemyDefinition>
+        <EnemyDefinition FrameHeight="58" FrameWidth="95" FramesPerRow="4" FramesPerSecond="10" Width="92" Height="55" Order="2" NumberOfFrames="4" StartSpriteX="381" StartSpriteY="261" Strength="1" NumberOfEnemies="23" MovementSpeed="160">
+          <BezierPoints>
+            <Point Nr="1" X="577" Y="612" />
+            <Point Nr="2" X="532" Y="655" />
+            <Point Nr="3" X="267" Y="578" />
+            <Point Nr="4" X="239" Y="513" />
+            <Point Nr="5" X="213" Y="447" />
+            <Point Nr="6" X="346" Y="-24" />
+            <Point Nr="7" X="408" Y="67" />
+            <Point Nr="8" X="471" Y="156" />
+            <Point Nr="9" X="617" Y="569" />
+          </BezierPoints>
+        </EnemyDefinition>
+      </Wave>
+      <Wave Order="5" NumberOfMilliSecondsBetweenEnemies="300">
+        <BossDefinition FrameHeight="186" FrameWidth="128" FramesPerRow="1" FramesPerSecond="1" Width="186" Height="128" Order="1" NumberOfFrames="1" StartSpriteX="572" StartSpriteY="320" Strength="200" MovementSpeed="300">
+          <BezierPoints>
+            <Point Nr="1" X="68" Y="62" />
+            <Point Nr="2" X="55" Y="98" />
+            <Point Nr="3" X="36" Y="347" />
+            <Point Nr="4" X="121" Y="226" />
+            <Point Nr="5" X="205" Y="104" />
+            <Point Nr="6" X="425" Y="571" />
+            <Point Nr="7" X="385" Y="346" />
+            <Point Nr="8" X="344" Y="114" />
+            <Point Nr="9" X="81" Y="29" />
+          </BezierPoints>
+        </BossDefinition>
+      </Wave>
+    </EnemeyWaves>
+  </Stage>
+  <Stage Order="2">
+    <BackgroundLayers>
+      <Layer Order="1" Image="layer2_1" XSpeed="0" YSpeed="0.5" />
+      <Layer Order="2" Image="layer1_2" XSpeed="-2" YSpeed="1" />
+      <Layer Order="3" Image="layer1_3" XSpeed="0" YSpeed="1.5" />
+    </BackgroundLayers>
+    <EnemeyWaves>
+      <Wave Order="1" NumberOfMilliSecondsBetweenEnemies="400">
+        <EnemyDefinition FrameHeight="58" FrameWidth="41" FramesPerRow="4" FramesPerSecond="5" Width="40" Height="57" Order="1" NumberOfFrames="4" StartSpriteX="0" StartSpriteY="707" Strength="4" NumberOfEnemies="20" MovementSpeed="130">
+          <BezierPoints>
+            <Point Nr="1" X="251" Y="-31" />
+            <Point Nr="2" X="171" Y="-132" />
+            <Point Nr="3" X="403" Y="658" />
+            <Point Nr="4" X="109" Y="566" />
+            <Point Nr="5" X="-183" Y="474" />
+            <Point Nr="6" X="291" Y="289" />
+            <Point Nr="7" X="424" Y="256" />
+            <Point Nr="8" X="557" Y="225" />
+            <Point Nr="9" X="331" Y="69" />
+          </BezierPoints>
+        </EnemyDefinition>
+      </Wave>
+      <Wave Order="2" NumberOfMilliSecondsBetweenEnemies="400">
+        <EnemyDefinition FrameHeight="58" FrameWidth="41" FramesPerRow="4" FramesPerSecond="5" Width="40" Height="57" Order="1" NumberOfFrames="4" StartSpriteX="164" StartSpriteY="707" Strength="2" NumberOfEnemies="20" MovementSpeed="130">
+          <BezierPoints>
+            <Point Nr="1" X="-70" Y="-33" />
+            <Point Nr="2" X="-150" Y="-134" />
+            <Point Nr="3" X="325" Y="33" />
+            <Point Nr="4" X="207" Y="111" />
+            <Point Nr="5" X="89" Y="188" />
+            <Point Nr="6" X="-23" Y="577" />
+            <Point Nr="7" X="102" Y="557" />
+            <Point Nr="8" X="224" Y="538" />
+            <Point Nr="9" X="10" Y="67" />
+          </BezierPoints>
+        </EnemyDefinition>
+        <EnemyDefinition FrameHeight="58" FrameWidth="41" FramesPerRow="4" FramesPerSecond="5" Width="40" Height="57" Order="2" NumberOfFrames="4" StartSpriteX="0" StartSpriteY="707" Strength="2" NumberOfEnemies="20" MovementSpeed="130">
+          <BezierPoints>
+            <Point Nr="1" X="546" Y="-45" />
+            <Point Nr="2" X="520" Y="-120" />
+            <Point Nr="3" X="340" Y="15" />
+            <Point Nr="4" X="297" Y="89" />
+            <Point Nr="5" X="256" Y="163" />
+            <Point Nr="6" X="550" Y="570" />
+            <Point Nr="7" X="400" Y="577" />
+            <Point Nr="8" X="247" Y="584" />
+            <Point Nr="9" X="571" Y="27" />
+          </BezierPoints>
+        </EnemyDefinition>
+      </Wave>
+      <Wave Order="3" NumberOfMilliSecondsBetweenEnemies="200">
+        <EnemyDefinition FrameHeight="58" FrameWidth="41" FramesPerRow="4" FramesPerSecond="5" Width="40" Height="57" Order="1" NumberOfFrames="4" StartSpriteX="164" StartSpriteY="707" Strength="2" NumberOfEnemies="20" MovementSpeed="130">
+          <BezierPoints>
+            <Point Nr="1" X="591" Y="283" />
+            <Point Nr="2" X="584" Y="150" />
+            <Point Nr="3" X="-67" Y="199" />
+            <Point Nr="4" X="-107" Y="230" />
+            <Point Nr="5" X="-146" Y="261" />
+            <Point Nr="6" X="-147" Y="326" />
+            <Point Nr="7" X="-93" Y="349" />
+            <Point Nr="8" X="-38" Y="370" />
+            <Point Nr="9" X="597" Y="414" />
+          </BezierPoints>
+        </EnemyDefinition>
+        <EnemyDefinition FrameHeight="58" FrameWidth="41" FramesPerRow="4" FramesPerSecond="5" Width="40" Height="57" Order="2" NumberOfFrames="4" StartSpriteX="0" StartSpriteY="707" Strength="2" NumberOfEnemies="20" MovementSpeed="130">
+          <BezierPoints>
+            <Point Nr="1" X="-118" Y="593" />
+            <Point Nr="2" X="-144" Y="518" />
+            <Point Nr="3" X="309" Y="-19" />
+            <Point Nr="4" X="114" Y="36" />
+            <Point Nr="5" X="-82" Y="92" />
+            <Point Nr="6" X="422" Y="292" />
+            <Point Nr="7" X="354" Y="135" />
+            <Point Nr="8" X="286" Y="-20" />
+            <Point Nr="9" X="-93" Y="665" />
+          </BezierPoints>
+        </EnemyDefinition>
+      </Wave>
+    </EnemeyWaves>
+  </Stage>
+  <Stage Order="3">
+    <BackgroundLayers>
+      <Layer Order="1" Image="layer3_1" XSpeed="0" YSpeed="0.5" />
+      <Layer Order="2" Image="layer1_2" XSpeed="-2" YSpeed="1" />
+      <Layer Order="3" Image="layer1_3" XSpeed="0" YSpeed="1.5" />
+    </BackgroundLayers>
+    <EnemeyWaves>
+      <Wave Order="1" NumberOfMilliSecondsBetweenEnemies="400">
+        <EnemyDefinition FrameHeight="58" FrameWidth="41" FramesPerRow="4" FramesPerSecond="5" Width="40" Height="57" Order="1" NumberOfFrames="4" StartSpriteX="0" StartSpriteY="707" Strength="4" NumberOfEnemies="20" MovementSpeed="130">
+          <BezierPoints>
+            <Point Nr="1" X="251" Y="-31" />
+            <Point Nr="2" X="171" Y="-132" />
+            <Point Nr="3" X="403" Y="658" />
+            <Point Nr="4" X="109" Y="566" />
+            <Point Nr="5" X="-183" Y="474" />
+            <Point Nr="6" X="291" Y="289" />
+            <Point Nr="7" X="424" Y="256" />
+            <Point Nr="8" X="557" Y="225" />
+            <Point Nr="9" X="331" Y="69" />
+          </BezierPoints>
+        </EnemyDefinition>
+      </Wave>
+      <Wave Order="2" NumberOfMilliSecondsBetweenEnemies="400">
+        <EnemyDefinition FrameHeight="58" FrameWidth="41" FramesPerRow="4" FramesPerSecond="5" Width="40" Height="57" Order="1" NumberOfFrames="4" StartSpriteX="164" StartSpriteY="707" Strength="2" NumberOfEnemies="20" MovementSpeed="130">
+          <BezierPoints>
+            <Point Nr="1" X="-70" Y="-33" />
+            <Point Nr="2" X="-150" Y="-134" />
+            <Point Nr="3" X="325" Y="33" />
+            <Point Nr="4" X="207" Y="111" />
+            <Point Nr="5" X="89" Y="188" />
+            <Point Nr="6" X="-23" Y="577" />
+            <Point Nr="7" X="102" Y="557" />
+            <Point Nr="8" X="224" Y="538" />
+            <Point Nr="9" X="10" Y="67" />
+          </BezierPoints>
+        </EnemyDefinition>
+        <EnemyDefinition FrameHeight="58" FrameWidth="41" FramesPerRow="4" FramesPerSecond="5" Width="40" Height="57" Order="2" NumberOfFrames="4" StartSpriteX="0" StartSpriteY="707" Strength="2" NumberOfEnemies="20" MovementSpeed="130">
+          <BezierPoints>
+            <Point Nr="1" X="546" Y="-45" />
+            <Point Nr="2" X="520" Y="-120" />
+            <Point Nr="3" X="340" Y="15" />
+            <Point Nr="4" X="297" Y="89" />
+            <Point Nr="5" X="256" Y="163" />
+            <Point Nr="6" X="550" Y="570" />
+            <Point Nr="7" X="400" Y="577" />
+            <Point Nr="8" X="247" Y="584" />
+            <Point Nr="9" X="571" Y="27" />
+          </BezierPoints>
+        </EnemyDefinition>
+      </Wave>
+      <Wave Order="3" NumberOfMilliSecondsBetweenEnemies="200">
+        <EnemyDefinition FrameHeight="58" FrameWidth="41" FramesPerRow="4" FramesPerSecond="5" Width="40" Height="57" Order="1" NumberOfFrames="4" StartSpriteX="164" StartSpriteY="707" Strength="2" NumberOfEnemies="20" MovementSpeed="130">
+          <BezierPoints>
+            <Point Nr="1" X="591" Y="283" />
+            <Point Nr="2" X="584" Y="150" />
+            <Point Nr="3" X="-67" Y="199" />
+            <Point Nr="4" X="-107" Y="230" />
+            <Point Nr="5" X="-146" Y="261" />
+            <Point Nr="6" X="-147" Y="326" />
+            <Point Nr="7" X="-93" Y="349" />
+            <Point Nr="8" X="-38" Y="370" />
+            <Point Nr="9" X="597" Y="414" />
+          </BezierPoints>
+        </EnemyDefinition>
+        <EnemyDefinition FrameHeight="58" FrameWidth="41" FramesPerRow="4" FramesPerSecond="5" Width="40" Height="57" Order="2" NumberOfFrames="4" StartSpriteX="0" StartSpriteY="707" Strength="2" NumberOfEnemies="20" MovementSpeed="130">
+          <BezierPoints>
+            <Point Nr="1" X="-118" Y="593" />
+            <Point Nr="2" X="-144" Y="518" />
+            <Point Nr="3" X="309" Y="-19" />
+            <Point Nr="4" X="114" Y="36" />
+            <Point Nr="5" X="-82" Y="92" />
+            <Point Nr="6" X="422" Y="292" />
+            <Point Nr="7" X="354" Y="135" />
+            <Point Nr="8" X="286" Y="-20" />
+            <Point Nr="9" X="-93" Y="665" />
+          </BezierPoints>
+        </EnemyDefinition>
+      </Wave>
+    </EnemeyWaves>
+  </Stage>
+  <Stage Order="4">
+    <BackgroundLayers>
+      <Layer Order="1" Image="layer4_1" XSpeed="0" YSpeed="0.5" />
+      <Layer Order="2" Image="layer1_2" XSpeed="-2" YSpeed="1" />
+      <Layer Order="3" Image="layer1_3" XSpeed="0" YSpeed="1.5" />
+    </BackgroundLayers>
+    <EnemeyWaves>
+      <Wave Order="2" NumberOfMilliSecondsBetweenEnemies="100">
+        <EnemyDefinition FrameHeight="101" FrameWidth="95" FramesPerRow="4" FramesPerSecond="10" Width="92" Height="98" Order="1" NumberOfFrames="4" StartSpriteX="381" StartSpriteY="102" Strength="8" NumberOfEnemies="23" MovementSpeed="85">
+          <BezierPoints>
+            <Point Nr="1" X="39" Y="-31" />
+            <Point Nr="2" X="-94" Y="-133" />
+            <Point Nr="3" X="53" Y="104" />
+            <Point Nr="4" X="90" Y="214" />
+            <Point Nr="5" X="127" Y="328" />
+            <Point Nr="6" X="109" Y="604" />
+            <Point Nr="7" X="149" Y="604" />
+            <Point Nr="8" X="189" Y="602" />
+            <Point Nr="9" X="173" Y="71" />
+          </BezierPoints>
+        </EnemyDefinition>
+        <EnemyDefinition FrameHeight="101" FrameWidth="95" FramesPerRow="4" FramesPerSecond="10" Width="92" Height="98" Order="2" NumberOfFrames="4" StartSpriteX="381" StartSpriteY="0" Strength="8" NumberOfEnemies="23" MovementSpeed="85">
+          <BezierPoints>
+            <Point Nr="1" X="423" Y="-37" />
+            <Point Nr="2" X="397" Y="-141" />
+            <Point Nr="3" X="449" Y="322" />
+            <Point Nr="4" X="323" Y="449" />
+            <Point Nr="5" X="198" Y="578" />
+            <Point Nr="6" X="-114" Y="726" />
+            <Point Nr="7" X="155" Y="583" />
+            <Point Nr="8" X="422" Y="441" />
+            <Point Nr="9" X="446" Y="66" />
+          </BezierPoints>
+        </EnemyDefinition>
+      </Wave>
+      <Wave Order="2" NumberOfMilliSecondsBetweenEnemies="150">
+        <EnemyDefinition FrameHeight="58" FrameWidth="41" FramesPerRow="4" FramesPerSecond="5" Width="40" Height="57" Order="1" NumberOfFrames="4" StartSpriteX="164" StartSpriteY="707" Strength="2" NumberOfEnemies="30" MovementSpeed="95">
+          <BezierPoints>
+            <Point Nr="1" X="-70" Y="-33" />
+            <Point Nr="2" X="-150" Y="-134" />
+            <Point Nr="3" X="325" Y="33" />
+            <Point Nr="4" X="207" Y="111" />
+            <Point Nr="5" X="89" Y="188" />
+            <Point Nr="6" X="-23" Y="577" />
+            <Point Nr="7" X="102" Y="557" />
+            <Point Nr="8" X="224" Y="538" />
+            <Point Nr="9" X="10" Y="67" />
+          </BezierPoints>
+        </EnemyDefinition>
+        <EnemyDefinition FrameHeight="58" FrameWidth="41" FramesPerRow="4" FramesPerSecond="5" Width="40" Height="57" Order="2" NumberOfFrames="4" StartSpriteX="0" StartSpriteY="707" Strength="2" NumberOfEnemies="30" MovementSpeed="95">
+          <BezierPoints>
+            <Point Nr="1" X="546" Y="-45" />
+            <Point Nr="2" X="520" Y="-120" />
+            <Point Nr="3" X="340" Y="15" />
+            <Point Nr="4" X="297" Y="89" />
+            <Point Nr="5" X="256" Y="163" />
+            <Point Nr="6" X="550" Y="570" />
+            <Point Nr="7" X="400" Y="577" />
+            <Point Nr="8" X="247" Y="584" />
+            <Point Nr="9" X="571" Y="27" />
+          </BezierPoints>
+        </EnemyDefinition>
+      </Wave>
+      <Wave Order="3" NumberOfMilliSecondsBetweenEnemies="180">
+        <EnemyDefinition FrameHeight="58" FrameWidth="41" FramesPerRow="4" FramesPerSecond="5" Width="40" Height="57" Order="1" NumberOfFrames="4" StartSpriteX="164" StartSpriteY="707" Strength="2" NumberOfEnemies="28" MovementSpeed="130">
+          <BezierPoints>
+            <Point Nr="1" X="591" Y="283" />
+            <Point Nr="2" X="584" Y="150" />
+            <Point Nr="3" X="-67" Y="199" />
+            <Point Nr="4" X="-107" Y="230" />
+            <Point Nr="5" X="-146" Y="261" />
+            <Point Nr="6" X="-147" Y="326" />
+            <Point Nr="7" X="-93" Y="349" />
+            <Point Nr="8" X="-38" Y="370" />
+            <Point Nr="9" X="597" Y="414" />
+          </BezierPoints>
+        </EnemyDefinition>
+        <EnemyDefinition FrameHeight="58" FrameWidth="41" FramesPerRow="4" FramesPerSecond="5" Width="40" Height="57" Order="2" NumberOfFrames="4" StartSpriteX="0" StartSpriteY="707" Strength="2" NumberOfEnemies="28" MovementSpeed="130">
+          <BezierPoints>
+            <Point Nr="1" X="-118" Y="593" />
+            <Point Nr="2" X="-144" Y="518" />
+            <Point Nr="3" X="309" Y="-19" />
+            <Point Nr="4" X="114" Y="36" />
+            <Point Nr="5" X="-82" Y="92" />
+            <Point Nr="6" X="422" Y="292" />
+            <Point Nr="7" X="354" Y="135" />
+            <Point Nr="8" X="286" Y="-20" />
+            <Point Nr="9" X="-93" Y="665" />
+          </BezierPoints>
+        </EnemyDefinition>
+      </Wave>
+    </EnemeyWaves>
+  </Stage>
+</Stages>

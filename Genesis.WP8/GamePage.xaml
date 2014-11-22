@@ -1,0 +1,52 @@
+<phone:PhoneApplicationPage
+    x:Class="Genesis.WP8.GamePage"
+    Style="{StaticResource DefaultPage}"    
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"  
+    shell:SystemTray.IsVisible="False">
+
+    <DrawingSurfaceBackgroundGrid x:Name="XnaSurface" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <MediaElement />
+
+        <Grid x:Name="ContentPanel" Margin="12,0,12,0">
+            <StackPanel VerticalAlignment="Center" x:Name="startButtons" Margin="0, 550, 0, 0">
+                <StackPanel Orientation="Horizontal" Margin="-22,0,0,0">
+                <Button Margin="12,0,0,0" Width="150" Background="Blue" Click="EasyButton_OnClick">Easy</Button>
+                    <Button Margin="12,0,0,0" Width="150" Background="Blue" Click="MediumButton_OnClick">Medium</Button>
+                    <Button Margin="12,0,0,0" Width="150" Background="Blue" Click="HardButton_OnClick">Hard</Button>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel x:Name="highScorePanel" VerticalAlignment="Bottom" Visibility="Collapsed">
+                <TextBlock Text="Please enter your name" Margin="12,0,0,0"></TextBlock>
+                <TextBox Text="" x:Name="highScoreTextBox" MaxLength="8"></TextBox>
+            </StackPanel>
+        </Grid>
+    </DrawingSurfaceBackgroundGrid>
+
+
+    <phone:PhoneApplicationPage.ApplicationBar>
+        <shell:ApplicationBar x:Name="applicationBar" IsVisible="True" IsMenuEnabled="True">
+            <shell:ApplicationBar.MenuItems>
+                <shell:ApplicationBarMenuItem Text="About" Click="ApplicationBarAboutMenuItem_OnClick"/>
+                <shell:ApplicationBarMenuItem Text="Help" Click="ApplicationBarHelpMenuItem_OnClick"/>
+                <shell:ApplicationBarMenuItem Text="Clear Highscores" Click="ApplicationBarClearMenuItem_OnClick"/>
+                <shell:ApplicationBarMenuItem Text="Privacy" Click="ApplicationBarPrivacyMenuItem_OnClick"/>
+            </shell:ApplicationBar.MenuItems>
+        </shell:ApplicationBar>
+    </phone:PhoneApplicationPage.ApplicationBar>
+
+
+</phone:PhoneApplicationPage>
