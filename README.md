@@ -1,5 +1,6 @@
 Gen-WP
 ======
+[![Build status](https://ci.appveyor.com/api/projects/status/gi0gttb747jx9ti9/branch/master?svg=true)](https://ci.appveyor.com/project/kalkie/gen-wp)
 
 An old school space arcade shooter for Windows Phone created with MonoGame
 
